@@ -1,0 +1,22 @@
+{
+  "name": "cflannExtension",
+  "version": "1.0.0",
+  "description": "A CRX",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^9.0.7",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.7",
+    "gulp": "^3.8.11",
+    "gulp-watch": "^4.2.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conor Flannigan",
+  "license": "ISC"
+}
