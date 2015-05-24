@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.8.11",
+    "mutation-summary": "0.0.0",
     "rangy": "^1.3.0-beta.2",
     "react": "^0.13.1",
     "vinyl-source-stream": "^1.1.0"
