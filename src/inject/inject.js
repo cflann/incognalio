@@ -1,11 +1,15 @@
 var React = require('react');
 var rangy = require('rangy');
 var Anchor = require('./components/Anchor.jsx');
+var Test = require('../test.js');
+var Incg = require('./utils/Incg.js');
 
 console.log('script injected');
 
+Incg.render(<Test />);
+
 // window.onload = function() {
-document.body.onmouseup = function(e) {
+/*document.body.onmouseup = function(e) {
   // e.preventDefault();
   console.log('mouse up!', window.rangy);
 
@@ -32,5 +36,5 @@ document.body.onmouseup = function(e) {
 
   var a = React.render(<Anchor inner={__html} />, wrapper);
   rangy.getSelection(wrapper);
-  
 };
+  */
